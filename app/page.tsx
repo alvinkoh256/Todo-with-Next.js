@@ -9,11 +9,13 @@ export default async function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center flex-col">
-      <h1 className='text-3xl font-bold'>todo</h1>
-
-      {/* <p className='text-gray-600'>Stay organised and productive</p> */}
-      <TodoForm />
-      <TodoList todos={todos}/>
+      <div className="text-center">
+        <h1 className='text-3xl font-bold'>To do</h1>
+        <TodoForm />
+      </div>
+      <div>
+        <TodoList todos={todos} />
+      </div>
     </div>
   );
 }
