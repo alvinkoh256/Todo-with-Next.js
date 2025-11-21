@@ -6,7 +6,7 @@ Created this app to learn:
 
 What I've learnt:
 - React
-* Creating reusable components (e.g. Navbar) across different pages, makes it easier to maintain components that are used everywhere.
+    - Creating reusable components (e.g. Navbar) across different pages, makes it easier to maintain components that are used everywhere.
 
 - Typescript
 -   Defining data types expected so errors are highlighted and identified when coding, as opposed to during runtime errors like in JS
