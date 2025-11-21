@@ -4,6 +4,8 @@ import { Todo } from '@/app/generated/prisma/client';
 import TodoForm from '@/app/components/toDoForm';
 import TodoList from "@/app/components/todoList";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const todos = await prisma.todo.findMany();
 

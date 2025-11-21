@@ -4,11 +4,12 @@ import { Todo } from "../generated/prisma/client"
 import { prisma } from "@/app/lib/prisma";
 import { revalidatePath } from "next/cache";
 
-export async function addTodo(title: string) {
+export async function addTodo(title: string, priority: string) {
     let todo;
     todo = await prisma.todo.create({
         data: {
-            title: title
+            title: title,
+            priority: priority
         }
     })
     revalidatePath("/");
