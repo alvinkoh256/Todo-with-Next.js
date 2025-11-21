@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+    .todo-table td,
+    .todo-table th {
+        @apply p-4 text-left;
+    }
+}
