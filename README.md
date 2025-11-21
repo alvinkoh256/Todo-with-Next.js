@@ -6,20 +6,20 @@ Created this app to learn:
 
 What I've learnt:
 - React
-    - Creating reusable components (e.g. Navbar) across different pages, makes it easier to maintain components that are used everywhere.
+  - Creating reusable components (e.g. Navbar) across different pages, makes it easier to maintain components that are used everywhere.
 
 - Typescript
--   Defining data types expected so errors are highlighted and identified when coding, as opposed to during runtime errors like in JS
+  - Defining data types expected so errors are highlighted and identified when coding, as opposed to during runtime errors like in JS
 
 - Next.js Framework
--   Server components render data (triggered by page load) by fetching from DB (GET only) without separate API calls, improving performance. However, it cannot have interactivity.
--   Client components can accept inputs and events from users, and can call server actions to CRUD the DB. However, it should not fetch data directly from DB.
--   Server actions include functions that are used by client components to CRUD the DB
+  - Server components render data (triggered by page load) by fetching from DB (GET only) without separate API calls, improving performance. However, it cannot have interactivity.
+  - Client components can accept inputs and events from users, and can call server actions to CRUD the DB. However, it should not fetch data directly from DB.
+  - Server actions include functions that are used by client components to CRUD the DB
 
 - Prisma ORM
--   Type-safe database queries
--   Protect against SQL injection
--   Define schema with code
+  - Type-safe database queries
+  - Protect against SQL injection
+  - Define schema with code
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
