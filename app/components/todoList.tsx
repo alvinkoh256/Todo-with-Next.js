@@ -34,14 +34,17 @@ export default function TodoList({ todos }: { todos: Todo[] }) {
     return (
         <div className="overflow-hidden rounded-sm">
             <table className="todo-table border-1 border-collapse">
-                <tr>
-                    <th>Task</th>
-                    <th>Priority</th>
-                    <th></th>
-                </tr>
-                {content}
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Priority</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {content}
+                </tbody>
             </table>
-
         </div>
     )
 }
